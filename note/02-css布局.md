@@ -426,5 +426,38 @@ overflow:hidden | auto | scroll;
 
 
 
-# 五.定位
+# 五.CSS属性书写顺序（重点）
+
+**生活中衡量一个人有气质：**
+
+​	穿着打扮  举止言行  等等  
+
+**编程中如何衡量一个人的代码能力**：
+
+​	规范标准  优雅高质量 等等   一个词形容   专业    从代码中看出是否有经验..
+
+建议遵循以下顺序：
+
+1. **布局定位属性**：display / position / float / clear / visibility / overflow（建议 display 第一个写，毕竟关系到模式）
+2. **自身属性**：width / height / margin / padding / border / background
+3. **文本属性**：color / font / text-decoration / text-align / vertical-align / white- space / break-word
+4. **其他属性（CSS3）**：content / cursor / border-radius / box-shadow / text-shadow / background:linear-gradient …
+
+**举例：**
+
+```css
+ .jdc {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    padding: 20px 0;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #333;
+    background: rgba(0,0,0,.5);
+    border-radius: 10px;
+ } 
+```
 
