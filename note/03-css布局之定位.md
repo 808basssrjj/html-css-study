@@ -10,7 +10,7 @@
 
 **场景2**：当我们滚动窗口的时候，盒子是固定屏幕某个位置的。
 
-<img src="C:/Users/abbbbbcccc/Desktop/learn/html-css-study/data/08-前端基础CSS第六天/笔记/images/ding.png" />
+<img src="images/ding.png" />
 
 
 
@@ -113,7 +113,7 @@
 
 - 效果图：
 
-![相对定位案例](C:/Users/abbbbbcccc/Desktop/learn/html-css-study/data/08-前端基础CSS第六天/笔记/images/04_相对定位案例.png)
+![相对定位案例](images/04_相对定位案例.png)
 
 
 
@@ -135,13 +135,13 @@
 
 2. **父元素没有定位**，则以**浏览器**为准定位（Document 文档）。
 
-   <img src="C:/Users/abbbbbcccc/Desktop/learn/html-css-study/data/08-前端基础CSS第六天/笔记/images/05_绝对定位_父级无定位.png" width="600" />
+   <img src="images/05_绝对定位_父级无定位.png" width="600" />
 
 3. **父元素要有定位**
 
    * 元素将依据最近的已经定位（绝对、固定或相对定位）的父元素（祖先）进行定位。
 
-<img src="C:/Users/abbbbbcccc/Desktop/learn/html-css-study/data/08-前端基础CSS第六天/笔记/images/06_绝对定位_父级有定位.png" width="600" />
+<img src="images/06_绝对定位_父级有定位.png" width="600" />
 
 
 
