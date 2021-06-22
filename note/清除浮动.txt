@@ -1,0 +1,20 @@
+.clearfix:before,.clearfix:after {
+   content:"";
+   display:table; 
+ }
+ .clearfix:after {
+   clear:both;
+ }
+
+
+
+ .clearfix:after {  
+   content: ""; 
+   display: block; 
+   height: 0; 
+   clear: both; 
+   visibility: hidden;  
+ } 
+ .clearfix {  /* IE6、7 专有 */ 
+   *zoom: 1;
+ }   
